@@ -121,10 +121,10 @@ jQuery(document).ready(function($) {
 	// ------- Current Project Slider ------- //
 	if ($('.cpro-slider').length) {
 		$('.cpro-slider').owlCarousel({
-			loop: true,
+			// loop: true,
 			margin: 10,
 			responsiveClass: true,
-			nav: true,
+			// nav: true,
 			autoplay: true,
 			dots: false,
 			responsive: {
